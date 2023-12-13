@@ -10,7 +10,7 @@ import Foundation
 public class Utility{
     
     public static func doSomething(){
-        print("I DID SOMETING......")
+        print("I DID SOMETING REALL GOOD......")
     }
     
     
