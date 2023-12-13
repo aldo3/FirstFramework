@@ -10,13 +10,13 @@ Pod::Spec.new do |spec|
 
  
   spec.name         = "FirstFramework"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "First attempt at creating a cocopod"
   spec.homepage     = "https://github.com/aldo3/FirstFramework"
   spec.license      = "MIT"
   spec.author       = { "Al Dockett" => "al.dockett@gmail.com" }
   spec.platform     = :ios,'16.4'
   spec.source       = { :git => "https://github.com/aldo3/FirstFramework.git", :tag => "#{spec.version}" }
-  spec.source_files  = "*"
+  spec.source_files  = "**/*"
 
 end
